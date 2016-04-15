@@ -22,7 +22,7 @@ You'll be teaching `Dog` about their names through two methods, `#name`, and `#n
 
 ### Give a Dog a Breed
 
-You'll be teaching `Dog` about their breed through two methods, `#breed`, and `#breed=` that read and write to a corresponding instance variable `@breed`.
+You'll be teaching `Dog` about their names through two methods, `#breed`, and `#breed=` that read and write to a corresponding instance variable `@breed`.
 
 ## `Person` and `lib/person.rb`
 
@@ -32,10 +32,6 @@ You'll be teaching `Person` about their names through two methods, `#name`, and 
 
 ### Give a Person a Job
 
-You'll be teaching `Person` about their jobs through two methods, `#job`, and `#job=` that read and write to a corresponding instance variable `@job`.
+You'll be teaching `Person` about their names through two methods, `#job`, and `#job=` that read and write to a corresponding instance variable `@job`.
 
 When you're done submit the lab with `learn submit`
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-object-attributes-lab' title='Ruby Object Attributes Lab'>Ruby Object Attributes Lab</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-object-attributes-lab'>Object Attributes Lab</a> on Learn.co and start learning to code for free.</p>
