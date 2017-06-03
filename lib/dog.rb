@@ -1,4 +1,4 @@
-require 'pry'
+
 class Dog
 
   def name
@@ -6,10 +6,15 @@ class Dog
   end
 
   def name=(dname)
-    binding.pry
     @name = dname
   end
 
+  def breed
+    @breed
+  end
 
+  def breed=(tbreed)
+    @breed = tbreed
+  end
 
 end
