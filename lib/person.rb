@@ -1,24 +1,16 @@
 class Person
-# Instance Method
-  def talk
-    puts "Hello World!"
+  def name
+    @name
   end
-     # Instance Method
-  def walk
-    puts "The Person is walking"
+
+  def name=(new_name)
+    @name = new_name
   end
-   def initialize(name)
-     @name = name
-   end
+  def job
+    @job
+  end
 
-   def name
-     @name
-   end
-
-   def name=(new_name)
-     @name = new_name
-   end
- end
-
-kanye = Person.new("Kanye")
-kanye.name
+  def job=(new_job)
+    @job = new_job
+  end
+end

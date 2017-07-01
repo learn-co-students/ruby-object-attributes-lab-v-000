@@ -1,12 +1,17 @@
 class Dog
-# Instance Method Definition
-def bark
-   puts "Woof!"
- end
-# Instance Method Definition
-def sit
-  puts "The Dog is sitting"
+
+def name
+  @name
 end
 
+def name=(new_name)
+  @name = new_name
+end
+def breed
+  @breed
+end
 
+def breed=(new_breed)
+  @breed= new_breed
+end
 end
