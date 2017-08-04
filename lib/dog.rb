@@ -23,10 +23,10 @@ end
 def breed=(new_breed)
   @breed=new_breed
 end
+end
 
 fido = Dog.new
 fido.name = "Lassie"
 
 boxterrier = Dog.new
 boxterrier.breed = "boxterrier"
-end
