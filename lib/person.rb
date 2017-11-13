@@ -1,14 +1,17 @@
 class Person
-  def name=(person_name)
+  def name=(person_name)  #setter method
     @name = person_name
   end
-  def name
+
+  def name #getter method
     @name
   end
-  def job=(job_name)
+
+  def job=(job_name) #setter method
     @job = job_name
   end
-  def job
+
+  def job  #getter method
     @job
   end
 end

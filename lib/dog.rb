@@ -1,17 +1,17 @@
 class Dog
-  def name=(dog_name)
+  def name=(dog_name)  #setter method
     @name = dog_name
   end
-  
-  def name
+
+  def name   #getter method
     @name
   end
-  
-  def breed=(dog_breed)
+
+  def breed=(dog_breed) #setter method
     @breed = dog_breed
   end
-  
-  def breed
+
+  def breed   #getter method
     @breed
   end
 end
