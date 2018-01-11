@@ -22,4 +22,3 @@ fido.name = "Fido"
 fido.name
 snoopy = Dog.new
 snoopy.instance_variable_set(:@breed, "Beagle")
-puts snoopy.breed
