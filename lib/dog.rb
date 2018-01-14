@@ -1,25 +1,20 @@
 class Dog
 
-  def name=(name)
-    @name = name
-
+  def name=(n)
+    @name = n
   end
+
 
   def name
     @name
-
   end
 
-
-  def breed=(breed)
-    @breed = breed
-
+  def breed=(b)
+    @breed=b
   end
 
   def breed
     @breed
-
   end
-
 
 end
