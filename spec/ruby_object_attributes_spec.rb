@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe 'Dog' do
+puts describe 'Dog' do
   it 'is defined within lib/dog.rb' do
     expect(defined?(Dog)).to be_truthy
     expect(Dog).to be_a(Class)
   end
 
-  context 'with names' do
+  puts context 'with names' do
     describe '#name=' do
       it 'writes the name of the dog to an instance variable @name' do
         fido = Dog.new
@@ -16,7 +16,7 @@ describe 'Dog' do
       end
     end
 
-    describe '#name' do
+    puts describe '#name' do
       it 'reads the name of the dog from an instance variable @name' do
         fido = Dog.new
         fido.instance_variable_set(:@name, "Fido")
@@ -26,7 +26,7 @@ describe 'Dog' do
     end
   end
 
-  context 'with breeds' do
+puts  context 'with breeds' do
     describe '#breed=' do
       it 'writes the breed of the dog to an instance variable @breed' do
         snoopy = Dog.new
@@ -36,7 +36,7 @@ describe 'Dog' do
       end
     end
 
-    describe '#breed' do
+    puts describe '#breed' do
       it 'reads the breed of the dog from an instance variable @breed' do
         snoopy = Dog.new
         snoopy.instance_variable_set(:@breed, "Beagle")
@@ -47,13 +47,13 @@ describe 'Dog' do
   end
 end
 
-describe 'Person' do
+puts describe 'Person' do
   it 'is defined within lib/person.rb' do
     expect(defined?(Person)).to be_truthy
     expect(Person).to be_a(Class)
   end
 
-  context 'with names' do
+  puts context 'with names' do
     describe '#name=' do
       it 'writes the name of the person to an instance variable @name' do
         beyonce = Person.new
@@ -63,7 +63,7 @@ describe 'Person' do
       end
     end
 
-    describe '#name' do
+    puts describe '#name' do
       it 'reads the name of the person from an instance variable @name' do
         beyonce = Person.new
         beyonce.instance_variable_set(:@name, "Beyonce")
@@ -73,7 +73,7 @@ describe 'Person' do
     end
   end
 
-  context 'with jobs' do
+  puts context 'with jobs' do
     describe '#job=' do
       it 'writes the job of the person to an instance variable @job' do
         beyonce = Person.new
@@ -83,7 +83,7 @@ describe 'Person' do
       end
     end
 
-    describe '#job' do
+    puts describe '#job' do
       it 'reads the job of the person from an instance variable @job' do
         beyonce = Person.new
         beyonce.instance_variable_set(:@job, "Singer")
