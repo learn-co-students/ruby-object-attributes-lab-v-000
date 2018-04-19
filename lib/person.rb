@@ -1,11 +1,13 @@
 class Person
-  def name=(person_name)
+  def name=(person_name) #setter
     @name = person_name
   end
 
-  def name
+  def name #getter
     @name
   end
+
+#you need to set it before you can get it.
 
   def job=(person_job)
     @job = person_job
