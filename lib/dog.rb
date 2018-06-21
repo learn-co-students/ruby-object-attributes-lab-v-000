@@ -1,3 +1,4 @@
+require 'pry'
 class Dog 
   def name=(name)
     @name = name 
@@ -10,5 +11,5 @@ class Dog
   end 
   def breed 
     @breed 
-  end 
+  end
 end 
