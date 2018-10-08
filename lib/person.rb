@@ -1,5 +1,5 @@
 class Person
-   def name= (name)
+   def name= (name)  #setter
      @name = name
   end
   
@@ -12,7 +12,7 @@ class Person
   end
   
   def job 
-    @job
+    @job   #getter 
   end
 
 end
