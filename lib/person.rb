@@ -3,11 +3,11 @@ class Person
      @name = name
   end
   
-  def name
+  def name #getter 
     @name
   end
   
-  def job= (job)
+  def job= (job) #setter
     @job = job
   end
   
